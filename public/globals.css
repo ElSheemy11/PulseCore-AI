@@ -43,11 +43,6 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-* {
-  font-family: "Comic Neue", cursive;
-  transition: 0.4s;
-}
-
 :root {
   /* Base Variables */
   --radius: 0.625rem;
@@ -55,10 +50,10 @@
   /* Cyberpunk Theme Colors */
   --cyber-black: #000000;
   --cyber-dark: #0a0c14;
-  --cyber-blue-bright: #18cef2;
-  --cyber-blue: #1089bd;
-  --cyber-blue-dark: #0b4a7d;
-  --cyber-blue-glow: #38bdf8;
+  --cyber-blue-bright: #18cef2; 
+  --cyber-blue: #1089bd; 
+  --cyber-blue-dark: #0b4a7d; 
+  --cyber-blue-glow: #38bdf8; 
   --cyber-accent: #0ff4;
 
   /* Background */
