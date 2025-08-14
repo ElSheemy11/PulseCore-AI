@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "PulseCore AI - Get Jacked",
   description: "A modern fitness AI platform to get jacked for free.",
   icons: {
-    icon: "/public/w-icon.png",
+    icon: "/w-icon.png",
   },
 };
 
