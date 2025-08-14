@@ -129,8 +129,6 @@ const GenerateProgramPage = () => {
         setCallEnded(false);
 
         const fullName = user?.firstName ? `${user.firstName} ${user.lastName || ""}`.trim() : "There";
-
-        console.log("Assistant ID:", process.env.NEXT_PUBLIC_VAPI_ASSISTANT_ID);
         
         await vapi.start(undefined,
           undefined,
@@ -144,7 +142,7 @@ const GenerateProgramPage = () => {
         }
       )
       console.log("workflow ID: ", process.env.NEXT_PUBLIC_VAPI_WORKFLOW_ID);
-        console.log("Started call with assistant:", process.env.NEXT_PUBLIC_VAPI_ASSISTANT_ID);
+        console.log("Started call with assistant:", process.env.NEXT_PUBLIC_VAPI_WORKFLOW_ID);
       } catch (error) {
         console.log("Failed to start call :", error );
         setConnecting(false);
